@@ -1,12 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script>
+    document.documentElement.classList.add(matchMedia("(prefers-reduced-motion: reduce)").matches ? "reduce-motion" : "motion");
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#eaf2fb">
-  <meta name="description" content="Medicus keeps your medications, schedules, and caregiving routines organized in one private, offline-first app.">
-  <title>Medicus — Your medications, organized.</title>
+  <title>Medicus by Unorthodox Technologies</title>
+  <meta name="description" content="Offline medication and caregiving app by Unorthodox Technologies. Founder Marte Flores Jr. Co-founders Justine Reyes, Melvin Ramos, and Clarenz Geronimo.">
+  <meta name="author" content="Unorthodox Technologies">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://www.medicus.website/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Unorthodox Technologies">
+  <meta property="og:title" content="Medicus by Unorthodox Technologies">
+  <meta property="og:description" content="Offline medication and caregiving app by Unorthodox Technologies. Founder Marte Flores Jr. Co-founders Justine Reyes, Melvin Ramos, and Clarenz Geronimo.">
+  <meta property="og:url" content="https://www.medicus.website/">
+  <meta property="og:image" content="https://www.medicus.website/imgs/logo.png">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Medicus by Unorthodox Technologies">
+  <meta name="twitter:description" content="Offline medication and caregiving app by Unorthodox Technologies. Founder Marte Flores Jr. Co-founders Justine Reyes, Melvin Ramos, and Clarenz Geronimo.">
+  <meta name="twitter:image" content="https://www.medicus.website/imgs/logo.png">
   <link rel="icon" href="imgs/logo.png" type="image/png">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.medicus.website/#unorthodox-technologies",
+        "name": "Unorthodox Technologies",
+        "url": "https://www.medicus.website/",
+        "logo": "https://www.medicus.website/imgs/logo.png",
+        "description": "Unorthodox Technologies is the independent studio behind Medicus, an offline-first app for medication routines and caregiving.",
+        "founder": [
+          { "@id": "https://www.medicus.website/#marte-flores-jr" },
+          { "@id": "https://www.medicus.website/#justine-reyes" },
+          { "@id": "https://www.medicus.website/#melvin-ramos" },
+          { "@id": "https://www.medicus.website/#clarenz-geronimo" }
+        ],
+        "brand": { "@id": "https://www.medicus.website/#medicus" }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.medicus.website/#marte-flores-jr",
+        "name": "Marte Flores Jr.",
+        "alternateName": "Marte Flores Jr",
+        "jobTitle": "Founder and Developer",
+        "url": "https://www.medicus.website/#marte-flores-jr",
+        "worksFor": { "@id": "https://www.medicus.website/#unorthodox-technologies" },
+        "description": "Marte Flores Jr. is the founder of Unorthodox Technologies and a developer of Medicus."
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.medicus.website/#justine-reyes",
+        "name": "Justine Reyes",
+        "alternateName": ["Justin Reyes", "Justine"],
+        "jobTitle": "Co-founder and Developer",
+        "url": "https://www.medicus.website/#justine-reyes",
+        "worksFor": { "@id": "https://www.medicus.website/#unorthodox-technologies" },
+        "description": "Justine Reyes is a co-founder of Unorthodox Technologies and a developer of Medicus."
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.medicus.website/#melvin-ramos",
+        "name": "Melvin Ramos",
+        "jobTitle": "Co-founder and Developer",
+        "url": "https://www.medicus.website/#melvin-ramos",
+        "worksFor": { "@id": "https://www.medicus.website/#unorthodox-technologies" },
+        "description": "Melvin Ramos is a co-founder of Unorthodox Technologies and a developer of Medicus."
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.medicus.website/#clarenz-geronimo",
+        "name": "Clarenz Geronimo",
+        "jobTitle": "Co-founder and Developer",
+        "url": "https://www.medicus.website/#clarenz-geronimo",
+        "worksFor": { "@id": "https://www.medicus.website/#unorthodox-technologies" },
+        "description": "Clarenz Geronimo is a co-founder of Unorthodox Technologies and a developer of Medicus."
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.medicus.website/#medicus",
+        "name": "Medicus",
+        "url": "https://www.medicus.website/",
+        "applicationCategory": "HealthApplication",
+        "operatingSystem": "Android",
+        "downloadUrl": "https://www.medicus.website/Medicus-app-apk.apk",
+        "description": "Medicus keeps medications, schedules, and caregiving routines organized in one private, offline-first app.",
+        "creator": { "@id": "https://www.medicus.website/#unorthodox-technologies" },
+        "author": { "@id": "https://www.medicus.website/#unorthodox-technologies" },
+        "publisher": { "@id": "https://www.medicus.website/#unorthodox-technologies" }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.medicus.website/#website",
+        "url": "https://www.medicus.website/",
+        "name": "Medicus",
+        "description": "Medicus by Unorthodox Technologies. Founder Marte Flores Jr. Co-founders Justine Reyes, Melvin Ramos, and Clarenz Geronimo.",
+        "publisher": { "@id": "https://www.medicus.website/#unorthodox-technologies" }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.medicus.website/#webpage",
+        "url": "https://www.medicus.website/",
+        "name": "Medicus by Unorthodox Technologies",
+        "description": "Offline medication and caregiving app by Unorthodox Technologies, founded by Marte Flores Jr. with co-founders Justine Reyes, Melvin Ramos, and Clarenz Geronimo.",
+        "isPartOf": { "@id": "https://www.medicus.website/#website" },
+        "about": [
+          { "@id": "https://www.medicus.website/#medicus" },
+          { "@id": "https://www.medicus.website/#unorthodox-technologies" }
+        ],
+        "mentions": [
+          { "@id": "https://www.medicus.website/#marte-flores-jr" },
+          { "@id": "https://www.medicus.website/#justine-reyes" },
+          { "@id": "https://www.medicus.website/#melvin-ramos" },
+          { "@id": "https://www.medicus.website/#clarenz-geronimo" }
+        ],
+        "primaryImageOfPage": "https://www.medicus.website/imgs/logo.png",
+        "inLanguage": "en"
+      }
+    ]
+  }
+  </script>
   <style>
     :root {
       color-scheme: light;
@@ -265,14 +383,22 @@
     .privacy p:not(.section-kicker) { max-width: 670px; margin: 17px 0 0; color: #c6ccce; font-size: 14px; line-height: 1.7; }
     .privacy-badge { display: grid; width: 112px; height: 112px; place-items: center; border: 1px solid #59615e; border-radius: 50%; color: var(--yellow); }
 
+    .people { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; padding: 0 20px 20px; }
+    .person { display: flex; min-height: 280px; flex-direction: column; padding: 22px; border-radius: 21px; background: var(--blue); }
+    .person-mark { display: grid; width: 48px; height: 48px; margin-bottom: 28px; place-items: center; border-radius: 50%; background: white; font-size: 13px; font-weight: 750; letter-spacing: -.03em; }
+    .person-role { margin: 0 0 8px; color: #555d63; font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+    .person h3 { margin: 0 0 10px; font-size: 22px; font-weight: 650; letter-spacing: -.05em; }
+    .person p { margin: 0; color: #545b60; font-size: 13px; line-height: 1.65; }
     .closing { display: flex; align-items: center; justify-content: space-between; gap: 25px; padding: clamp(30px, 5vw, 62px); }
     .closing h2 { max-width: 720px; font-size: clamp(36px, 5.5vw, 70px); }
     .closing .button { flex: 0 0 auto; }
     footer { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 25px 5px 5px; color: var(--muted); font-size: 11px; }
-    .footer-meta { display: flex; flex-direction: column; gap: 6px; }
-    .footer-devs { margin: 0; }
-    .footer-devs strong { color: var(--ink); font-weight: 650; }
-    .footer-links { display: flex; gap: 22px; }
+    .footer-meta { display: flex; flex-direction: column; gap: 6px; max-width: 760px; }
+    .footer-brand, .footer-devs { margin: 0; line-height: 1.6; }
+    .footer-brand strong, .footer-devs strong { color: var(--ink); font-weight: 650; }
+    .footer-devs a { text-decoration: none; }
+    .footer-devs a:hover { text-decoration: underline; text-underline-offset: 3px; }
+    .footer-links { display: flex; flex-wrap: wrap; gap: 22px; }
     .footer-links a { text-decoration: none; }
     .footer-links a:hover { color: var(--ink); }
 
@@ -282,6 +408,7 @@
       .dashboard { padding: 14px; }
       .intro-grid { grid-template-columns: 1fr; gap: 18px; }
       .intro-text { max-width: 650px; }
+      .people { grid-template-columns: 1fr 1fr; }
       .routine { grid-template-columns: 1fr .8fr; gap: 0; }
     }
     @media (max-width: 680px) {
@@ -302,6 +429,8 @@
       .section { margin-top: 12px; border-radius: 22px; }
       .intro-grid { padding: 34px 26px 26px; }
       .feature-grid { grid-template-columns: 1fr; gap: 10px; padding: 0 12px 12px; }
+      .people { grid-template-columns: 1fr; padding: 0 12px 12px; }
+      .person { min-height: 0; }
       .feature-card { min-height: 0; padding: 23px; }
       .feature-icon { margin-bottom: 22px; }
       .routine { grid-template-columns: 1fr; }
@@ -313,21 +442,89 @@
       .closing { align-items: flex-start; flex-direction: column; }
       footer { align-items: flex-start; flex-direction: column; }
     }
+    .scroll-progress {
+      position: fixed;
+      z-index: 40;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      pointer-events: none;
+    }
+    .scroll-progress span {
+      display: block;
+      width: 100%;
+      height: 100%;
+      background: var(--ink);
+      transform: scaleX(var(--scroll, 0));
+      transform-origin: left center;
+    }
+    html.motion [data-reveal] {
+      opacity: 0;
+      transform: translate3d(0, 34px, 0);
+      transition: opacity .8s cubic-bezier(.16, 1, .3, 1), transform .8s cubic-bezier(.16, 1, .3, 1);
+      transition-delay: var(--d, 0ms);
+    }
+    html.motion [data-reveal="left"] { transform: translate3d(-32px, 20px, 0); }
+    html.motion [data-reveal="right"] { transform: translate3d(32px, 20px, 0); }
+    html.motion [data-reveal].is-in { opacity: 1; transform: none; }
+    html.motion .highlight {
+      background-color: transparent;
+      background-image: linear-gradient(var(--yellow), var(--yellow));
+      background-repeat: no-repeat;
+      background-position: left 62%;
+      background-size: 0 0.82em;
+      transition: background-size .9s cubic-bezier(.16, 1, .3, 1);
+    }
+    html.motion h1.is-in .highlight {
+      background-size: 100% 0.82em;
+      transition-delay: .42s;
+    }
+    html.motion .phone-title,
+    html.motion .phone-subtitle,
+    html.motion .phone-item {
+      opacity: 0;
+      transform: translate3d(0, 16px, 0);
+    }
+    html.motion .routine.is-in .phone-title,
+    html.motion .routine.is-in .phone-subtitle,
+    html.motion .routine.is-in .phone-item {
+      animation: rise-in .7s cubic-bezier(.16, 1, .3, 1) forwards;
+    }
+    html.motion .routine.is-in .phone-subtitle { animation-delay: .08s; }
+    html.motion .routine.is-in .phone-item:nth-child(4) { animation-delay: .16s; }
+    html.motion .routine.is-in .phone-item:nth-child(5) { animation-delay: .32s; }
+    html.motion .routine.is-in .phone-item:nth-child(6) { animation-delay: .48s; }
+    html.motion .routine.is-in .check { animation: pop-in .4s cubic-bezier(.16, 1, .3, 1) both; }
+    html.motion .routine.is-in .phone-item:nth-child(5) .check { animation-delay: .5s; }
+    @keyframes rise-in { to { opacity: 1; transform: none; } }
+    @keyframes pop-in {
+      from { opacity: 0; transform: scale(.55); }
+      to { opacity: 1; transform: none; }
+    }
+
     @media (prefers-reduced-motion: reduce) {
       html { scroll-behavior: auto; }
-      *, *::before, *::after { transition-duration: .01ms !important; }
+      .scroll-progress { display: none; }
+      *, *::before, *::after {
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .01ms !important;
+      }
     }
   </style>
 </head>
 <body>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
   <div class="page">
     <header class="topbar" id="top">
       <a class="brand" href="#top" aria-label="Medicus home">
-        <img class="brand-mark" src="imgs/logo.png" alt="">
+        <img class="brand-mark" src="imgs/logo.png" alt="Medicus logo">
         <span><span class="brand-name">medicus</span><span class="brand-caption">Care, made a little simpler.</span></span>
       </a>
       <nav class="nav" aria-label="Main navigation">
         <a href="#how-it-works">How it works</a>
+        <a href="#about">About</a>
         <a href="#privacy">Privacy</a>
         <a class="button" href="Medicus-app-apk.apk" download="Medicus-app.apk">Download app <span aria-hidden="true">↓</span></a>
       </nav>
@@ -336,14 +533,14 @@
     <main>
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="eyebrow"><span class="eyebrow-dot"></span> A calmer way to keep track</p>
-          <h1 id="hero-title">Your medications,<br><span class="highlight">organized.</span><br>Your loved ones,<br>cared for.</h1>
-          <p class="hero-description">One thoughtful place for medication routines, daily reminders, and the people who count on you.</p>
-          <div class="hero-actions">
+          <p class="eyebrow" data-reveal><span class="eyebrow-dot"></span> A calmer way to keep track</p>
+          <h1 id="hero-title" data-reveal style="--d:90ms">Your medications,<br><span class="highlight">organized.</span><br>Your loved ones,<br>cared for.</h1>
+          <p class="hero-description" data-reveal style="--d:180ms">One thoughtful place for medication routines, daily reminders, and the people who count on you.</p>
+          <div class="hero-actions" data-reveal style="--d:260ms">
             <a class="button" href="Medicus-app-apk.apk" download="Medicus-app.apk">Download for Android <span aria-hidden="true">↓</span></a>
             <a class="text-link" href="#privacy">Private by design</a>
           </div>
-          <p class="hero-note">
+          <p class="hero-note" data-reveal style="--d:340ms">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3 19 6v5c0 4.5-2.8 8-7 10-4.2-2-7-5.5-7-10V6l7-3Z" stroke="currentColor" stroke-width="1.7"/><path d="m9 12 2 2 4-4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
             Works offline. Your information stays on your device.
           </p>
@@ -359,27 +556,27 @@
 
       <section class="section" id="how-it-works" aria-labelledby="how-title">
         <div class="intro-grid">
-          <div>
+          <div data-reveal>
             <p class="section-kicker">A little more peace of mind</p>
             <h2 id="how-title">Care routines,<br>all in one place.</h2>
           </div>
-          <div class="intro-text">
+          <div class="intro-text" data-reveal style="--d:120ms">
             <p>Keep track of your own routine or help care for someone you love. Medicus brings profiles, medication details, schedules, and activity history together in one easy-to-follow space.</p>
             <a class="text-link" href="#get-started">Get to know the features <span aria-hidden="true">→</span></a>
           </div>
         </div>
         <div class="feature-grid">
-          <article class="feature-card">
+          <article class="feature-card" data-reveal>
             <span class="feature-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="9" cy="8" r="3" stroke="currentColor" stroke-width="1.6"/><path d="M3.5 19v-1a5.5 5.5 0 0 1 11 0v1M16 5.5a3 3 0 0 1 0 5.8M17 14a4.5 4.5 0 0 1 3.5 4.4v.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span>
             <h3>One app, many profiles</h3>
             <p>Keep each person's medications, routines, and history separate and easy to find.</p>
           </article>
-          <article class="feature-card yellow">
+          <article class="feature-card yellow" data-reveal style="--d:110ms">
             <span class="feature-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.6"/><path d="M12 7v5l3 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span>
             <h3>Routines that fit real life</h3>
             <p>Set medication times and recurring days, then see what's coming up today.</p>
           </article>
-          <article class="feature-card white">
+          <article class="feature-card white" data-reveal style="--d:220ms">
             <span class="feature-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M5 4h14v16H5zM8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
             <h3>A clearer picture</h3>
             <p>Record taken, given, skipped, or missed activities and review the history when needed.</p>
@@ -388,13 +585,13 @@
       </section>
 
       <section class="section routine" aria-labelledby="routine-title">
-        <div class="routine-copy">
+        <div class="routine-copy" data-reveal="left">
           <p class="section-kicker">A day at a glance</p>
           <h2 id="routine-title">Small steps.<br>Clearer days.</h2>
           <p>See what's due, what's next, and what you've already logged. Local reminders help keep the day moving, and snoozing never marks a medication as taken.</p>
           <a class="button" href="Medicus-app-apk.apk" download="Medicus-app.apk">Download the app <span aria-hidden="true">↓</span></a>
         </div>
-        <div class="routine-visual" aria-label="Illustration of a medication schedule on a phone">
+        <div class="routine-visual" data-reveal="right" style="--d:80ms" aria-label="Illustration of a medication schedule on a phone">
           <div class="phone">
             <div class="phone-notch"></div>
             <p class="phone-title">Today's routine</p>
@@ -407,7 +604,7 @@
       </section>
 
       <section class="section privacy" id="privacy" aria-labelledby="privacy-title">
-        <div>
+        <div data-reveal>
           <p class="section-kicker">Private by design</p>
           <h2 id="privacy-title">Your information stays with you.</h2>
           <p>Medicus is built for offline-first use. Your medication information and activity history are managed on your device — no online account or remote push notifications required for everyday use.</p>
@@ -417,28 +614,135 @@
         </div>
       </section>
 
+      <section class="section" id="about" aria-labelledby="about-title">
+        <div class="intro-grid">
+          <div data-reveal>
+            <p class="section-kicker">Unorthodox Technologies</p>
+            <h2 id="about-title">The founders behind Medicus.</h2>
+          </div>
+          <div class="intro-text" data-reveal style="--d:120ms">
+            <p>Unorthodox Technologies is the independent studio that designs and builds Medicus. Founder Marte Flores Jr. and co-founders Justine Reyes, Melvin Ramos, and Clarenz Geronimo made the app so medication routines and caregiving stay organized, privately, on your device.</p>
+          </div>
+        </div>
+        <div class="people">
+          <article class="person founder" id="marte-flores-jr" data-reveal>
+            <span class="person-mark" aria-hidden="true">MF</span>
+            <p class="person-role">Founder &amp; developer</p>
+            <h3>Marte Flores Jr.</h3>
+            <p>Marte Flores Jr. founded Unorthodox Technologies and develops Medicus with the team — an offline-first home for medication routines and caregiving.</p>
+          </article>
+          <article class="person" id="justine-reyes" data-reveal style="--d:90ms">
+            <span class="person-mark" aria-hidden="true">JR</span>
+            <p class="person-role">Co-founder &amp; developer</p>
+            <h3>Justine Reyes</h3>
+            <p>Justine Reyes, also known as Justin, co-founded Unorthodox Technologies and develops Medicus alongside the founding team.</p>
+          </article>
+          <article class="person" id="melvin-ramos" data-reveal style="--d:180ms">
+            <span class="person-mark" aria-hidden="true">MR</span>
+            <p class="person-role">Co-founder &amp; developer</p>
+            <h3>Melvin Ramos</h3>
+            <p>Melvin Ramos co-founded Unorthodox Technologies and develops Medicus, shaping how each person’s care routine stays clear and on device.</p>
+          </article>
+          <article class="person" id="clarenz-geronimo" data-reveal style="--d:270ms">
+            <span class="person-mark" aria-hidden="true">CG</span>
+            <p class="person-role">Co-founder &amp; developer</p>
+            <h3>Clarenz Geronimo</h3>
+            <p>Clarenz Geronimo co-founded Unorthodox Technologies and builds Medicus as part of the indie team behind the app.</p>
+          </article>
+        </div>
+      </section>
+
       <section class="section closing" id="get-started">
-        <div>
+        <div data-reveal>
           <p class="section-kicker">Medicus</p>
           <h2>Your medications, organized. Your loved ones, cared for.</h2>
         </div>
-        <a class="button" href="Medicus-app-apk.apk" download="Medicus-app.apk">Download Medicus <span aria-hidden="true">↓</span></a>
+        <a class="button" data-reveal style="--d:120ms" href="Medicus-app-apk.apk" download="Medicus-app.apk">Download Medicus <span aria-hidden="true">↓</span></a>
       </section>
     </main>
 
-    <footer>
+    <footer data-reveal>
       <div class="footer-meta">
+        <p class="footer-brand"><strong>Unorthodox Technologies</strong> · Medicus</p>
+        <p class="footer-devs">Founder <a href="#marte-flores-jr"><strong>Marte Flores Jr.</strong></a> · Co-founders <a href="#justine-reyes"><strong>Justine Reyes</strong></a>, <a href="#melvin-ramos"><strong>Melvin Ramos</strong></a>, and <a href="#clarenz-geronimo"><strong>Clarenz Geronimo</strong></a>.</p>
         <span>Medicus helps organize routines; follow your healthcare professional's instructions.</span>
-        <p class="footer-devs">Indie developers <strong>MARTE FLORES JR</strong>, <strong>JUSTINE REYES</strong>, <strong>MELVIN RAMOS</strong>, and <strong>CLARENZ GERONIMO</strong></p>
       </div>
-      <div class="footer-links"><a href="Medicus-app-apk.apk" download="Medicus-app.apk">Download app</a><a href="#privacy">Privacy-minded</a><a href="#how-it-works">How it works</a></div>
+      <div class="footer-links"><a href="#about">About</a><a href="Medicus-app-apk.apk" download="Medicus-app.apk">Download app</a><a href="#privacy">Privacy-minded</a><a href="#how-it-works">How it works</a></div>
     </footer>
   </div>
   <script>
+    const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
     const promo = document.querySelector(".promo-video");
-    if (promo && matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    if (promo && reduceMotion) {
       promo.removeAttribute("autoplay");
       promo.pause();
+    }
+
+    if (!reduceMotion) {
+      const clamp = (value, min, max) => Math.min(max, Math.max(min, value));
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          entry.target.classList.add("is-in");
+          if (entry.target.classList.contains("routine-visual")) {
+            entry.target.closest(".routine").classList.add("is-in");
+          }
+          observer.unobserve(entry.target);
+        });
+      }, { threshold: 0.2, rootMargin: "0px 0px -8% 0px" });
+
+      document.querySelectorAll("[data-reveal]").forEach((el) => {
+        const rect = el.getBoundingClientRect();
+        const visible = rect.top < innerHeight * 0.92 && rect.bottom > 40;
+        if (visible) requestAnimationFrame(() => requestAnimationFrame(() => el.classList.add("is-in")));
+        else observer.observe(el);
+      });
+
+      const root = document.documentElement;
+      const hero = document.querySelector(".hero");
+      const sun = document.querySelector(".sun-disc");
+      const phone = document.querySelector(".phone");
+      const routine = document.querySelector(".routine");
+      const badge = document.querySelector(".privacy-badge");
+      const privacy = document.querySelector(".privacy");
+      let frame = 0;
+
+      const paint = () => {
+        frame = 0;
+        const vh = innerHeight;
+        const max = root.scrollHeight - vh;
+        root.style.setProperty("--scroll", max > 0 ? String(scrollY / max) : "0");
+
+        if (hero && sun) {
+          const rect = hero.getBoundingClientRect();
+          const progress = clamp(-rect.top / rect.height, 0, 1);
+          sun.style.transform = "translate3d(" + (progress * 64).toFixed(1) + "px, " + (progress * -110).toFixed(1) + "px, 0) scale(" + (1 - progress * 0.14).toFixed(3) + ")";
+          if (promo) promo.style.transform = "translate3d(0, " + (progress * 48).toFixed(1) + "px, 0)";
+        }
+
+        if (routine && phone) {
+          const rect = routine.getBoundingClientRect();
+          const progress = clamp((vh - rect.top) / (vh * 0.85), 0, 1);
+          const lift = innerWidth < 680 ? 64 : 110;
+          phone.style.transform = "translate3d(0, " + ((1 - progress) * lift).toFixed(1) + "px, 0)";
+          if (progress > 0.45) routine.classList.add("is-in");
+        }
+
+        if (privacy && badge) {
+          const rect = privacy.getBoundingClientRect();
+          const progress = clamp((vh * 0.92 - rect.top) / (vh * 0.7), 0, 1);
+          const spin = Math.sin(progress * Math.PI) * 16;
+          badge.style.transform = "rotate(" + spin.toFixed(2) + "deg) scale(" + (0.84 + progress * 0.16).toFixed(3) + ")";
+        }
+      };
+
+      const requestPaint = () => {
+        if (!frame) frame = requestAnimationFrame(paint);
+      };
+
+      addEventListener("scroll", requestPaint, { passive: true });
+      addEventListener("resize", requestPaint);
+      paint();
     }
   </script>
 </body>
